@@ -1,0 +1,20 @@
+/*Header buttons*/
+button.headerCastButton, button.headerUserButton, button.headerSettingsButton {display: none;}
+
+/*Card Overlay buttons*/
+button.cardOverlayFab-primary, button.cardOverlayButton[title="已播放"], button.cardOverlayButton[title="更多"] , button.cardOverlayButton[title="播放"] {display: none;}
+
+/*ItemDetails buttons*/
+button.btnResume, button.btnPlay, button.btnShuffle, button.btnPlayTrailer, button.btnPlaystate, button.btnMoreCommands {display: none;}
+
+/*Season view buttons*/
+button.listItemButton[title="已播放"], button.listItemButton[title="更多"] {display: none;}
+
+/*List item play button*/ 
+button.listItemImageButton {display: none;}
+
+/*Navdrawer options not Dashboard*/
+div.navDrawerCollapseSection[title="管理"] a.navMenuOption[title="管理 Emby 服务器"], div.navDrawerCollapseSection[title="管理"] a.navMenuOption[title="媒体资料管理器"], div.navDrawerCollapseSection[title="Admin"] a.navMenuOption[title="设置"] {display: none !important;}
+ 
+/*User Settings sections*/
+div.dynamicRoutes h3, div.dynamicRoutes a:not([title="登出"]) {display: none !important;}
