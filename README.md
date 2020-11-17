@@ -69,7 +69,7 @@ X:\EMBY sXerver\system\dashboard-ui\index.html
 
 /opt/emby-server/system/dashboard-ui/index.html
 
-在<body>里加一行
+在body里加一行
  
 <script type="text/javascript" src="./mjj.js"></script> 
 
@@ -82,3 +82,10 @@ X:\EMBY sXerver\system\dashboard-ui\index.html
 mjj.js文件需要修改的内容，与油猴脚本基本一致。
 
 <img width="658" alt="image" src="https://github.com/beiona/emby-goindex-potplayer/blob/main/%E7%9B%B4%E6%8E%A5%E6%94%B9emby%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%96%87%E4%BB%B6/mjj03.PNG?raw=true">
+
+# 可能遇到的问题
+replace()指令不生效
+
+你的浏览器可能不支持该js指令，具体见
+
+https://caniuse.com/?search=replace%20string
