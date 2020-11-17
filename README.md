@@ -33,3 +33,22 @@ EMBY和Goindex挂载同一个谷歌网盘，目录结构基本一样。
 替换油猴脚本14和16行（以及19-22行，四选一）
 
 <img width="658" alt="image" src="https://raw.githubusercontent.com/beiona/emby-goindex-potplayer/main/%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC/emby-goindex-potplayer06.PNG">
+
+# CSS 屏蔽播放按钮，以及屏蔽设置入口
+本项目需要emby账号拥有管理员权限
+
+<img width="658" alt="image" src="https://github.com/beiona/emby-goindex-potplayer/blob/main/%E5%B1%8F%E8%94%BD%E6%8C%89%E9%92%AE%E7%9A%84CSS%E5%86%85%E5%AE%B9/CSS01.PNG">
+
+可以通过CSS屏蔽设置入口和播放按钮（默认匹配简体中文界面）
+
+<img width="658" alt="image" src="https://github.com/beiona/emby-goindex-potplayer/blob/main/%E5%B1%8F%E8%94%BD%E6%8C%89%E9%92%AE%E7%9A%84CSS%E5%86%85%E5%AE%B9/CSS02.PNG">
+
+<img width="658" alt="image" src="https://github.com/beiona/emby-goindex-potplayer/blob/main/%E5%B1%8F%E8%94%BD%E6%8C%89%E9%92%AE%E7%9A%84CSS%E5%86%85%E5%AE%B9/CSS03.PNG">
+
+（可选）完美屏蔽播放按钮还需要更改服务器的listview.js文件
+路径
+X:\EMBY sXerver\system\dashboard-ui\modules\listview\listview.js
+/opt/emby-server/system/dashboard-ui/modules/listview/listview.js
+查找resume替换为link，共两处
+<img width="658" alt="image" src="https://github.com/beiona/emby-goindex-potplayer/blob/main/%E5%B1%8F%E8%94%BD%E6%8C%89%E9%92%AE%E7%9A%84CSS%E5%86%85%E5%AE%B9/CSS04.PNG">
+
