@@ -57,3 +57,28 @@ X:\EMBY sXerver\system\dashboard-ui\modules\listview\listview.js
 
 <img width="658" alt="image" src="https://github.com/beiona/emby-goindex-potplayer/blob/main/%E5%B1%8F%E8%94%BD%E6%8C%89%E9%92%AE%E7%9A%84CSS%E5%86%85%E5%AE%B9/CSS04.PNG">
 
+
+# 直接改服务器程序，不用油猴插件
+代码本来就在自己机器上，再用油猴调用js很膈应
+
+直接修改index.html,调用js
+
+路径
+
+X:\EMBY sXerver\system\dashboard-ui\index.html
+
+/opt/emby-server/system/dashboard-ui/index.html
+
+在<body>里加一行
+ 
+<script type="text/javascript" src="./mjj.js"></script> 
+
+<img width="658" alt="image" src="https://github.com/beiona/emby-goindex-potplayer/blob/main/%E7%9B%B4%E6%8E%A5%E6%94%B9emby%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%96%87%E4%BB%B6/mjj01.PNG">
+
+把mjj.js文件放入相同目录
+
+<img width="658" alt="image" src="https://github.com/beiona/emby-goindex-potplayer/blob/main/%E7%9B%B4%E6%8E%A5%E6%94%B9emby%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%96%87%E4%BB%B6/mjj02.PNG">
+
+mjj.js文件需要修改的内容，与油猴脚本基本一致。
+
+<img width="658" alt="image" src="https://github.com/beiona/emby-goindex-potplayer/blob/main/%E7%9B%B4%E6%8E%A5%E6%94%B9emby%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%96%87%E4%BB%B6/mjj03.PNG?raw=true">
