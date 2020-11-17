@@ -11,6 +11,8 @@ EMBY和Goindex挂载同一个谷歌网盘，目录结构基本一样。
 
 # 油猴脚本
 
+https://greasyfork.org/zh-CN/scripts/414769-emby-goindex-potplayer
+
 根据emby挂载的本地路径，和goindex挂载的网址路径
 
 <img width="658" alt="image" src="https://raw.githubusercontent.com/beiona/emby-goindex-potplayer/main/%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC/emby-goindex-potplayer03.PNG">
