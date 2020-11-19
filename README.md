@@ -46,6 +46,8 @@ https://greasyfork.org/zh-CN/scripts/414769-emby-goindex-potplayer
 
 可以通过CSS屏蔽设置入口和播放按钮（默认匹配简体中文界面）
 
+设置入口http://localhost:8096/web/index.html#!/dashboardgeneral.html
+
 <img width="658" alt="image" src="https://github.com/beiona/emby-goindex-potplayer/blob/main/%E5%B1%8F%E8%94%BD%E6%8C%89%E9%92%AE%E7%9A%84CSS%E5%86%85%E5%AE%B9/CSS02.PNG">
 
 <img width="658" alt="image" src="https://github.com/beiona/emby-goindex-potplayer/blob/main/%E5%B1%8F%E8%94%BD%E6%8C%89%E9%92%AE%E7%9A%84CSS%E5%86%85%E5%AE%B9/CSS03.PNG">
