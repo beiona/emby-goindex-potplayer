@@ -2,19 +2,19 @@
 button.headerCastButton, button.headerUserButton, button.headerSettingsButton {display: none;}
 
 /*Card Overlay buttons*/
-button.cardOverlayFab-primary, button.cardOverlayButton[title="ÒÑ²¥·Å"], button.cardOverlayButton[title="¸ü¶à"] , button.cardOverlayButton[title="²¥·Å"] {display: none;}
+button.cardOverlayFab-primary, button.cardOverlayButton[title="å·²æ’­æ”¾"], button.cardOverlayButton[title="æ›´å¤š"] , button.cardOverlayButton[title="æ’­æ”¾"] {display: none;}
 
 /*ItemDetails buttons*/
 button.btnResume, button.btnPlay, button.btnShuffle, button.btnPlayTrailer, button.btnPlaystate, button.btnMoreCommands {display: none;}
 
 /*Season view buttons*/
-button.listItemButton[title="ÒÑ²¥·Å"], button.listItemButton[title="¸ü¶à"] {display: none;}
+button.listItemButton[title="å·²æ’­æ”¾"], button.listItemButton[title="æ›´å¤š"] {display: none;}
 
 /*List item play button*/ 
 button.listItemImageButton {display: none;}
 
 /*Navdrawer options not Dashboard*/
-div.navDrawerCollapseSection[title="¹ÜÀí"] a.navMenuOption[title="¹ÜÀí Emby ·şÎñÆ÷"], div.navDrawerCollapseSection[title="¹ÜÀí"] a.navMenuOption[title="Ã½Ìå×ÊÁÏ¹ÜÀíÆ÷"], div.navDrawerCollapseSection[title="Admin"] a.navMenuOption[title="ÉèÖÃ"] {display: none !important;}
+a.navMenuOption[title="ç®¡ç† Emby æœåŠ¡å™¨"], a.navMenuOption[title="åª’ä½“èµ„æ–™ç®¡ç†å™¨"], a.navMenuOption[title="è®¾ç½®"] {display: none !important;}
  
 /*User Settings sections*/
-div.dynamicRoutes h3, div.dynamicRoutes a:not([title="µÇ³ö"]) {display: none !important;}
+div.dynamicRoutes h3, div.dynamicRoutes a:not([title="ç™»å‡º"]) {display: none !important;}
