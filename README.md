@@ -1,5 +1,7 @@
 # 感谢各位mjj对本项目的支持与帮助
 
+# 新版版emby把媒体信息的标签移除了，所以无法使用。请配合4.4.3版本的emby使用
+https://github.com/MediaBrowser/Emby.Releases/releases/tag/4.4.3.0
 
 # 效果
 EMBY和Goindex挂载同一个谷歌网盘，目录结构基本一样。
