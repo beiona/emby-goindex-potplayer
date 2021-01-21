@@ -79,8 +79,9 @@ X:\EMBY sXerver\system\dashboard-ui\index.html
 /opt/emby-server/system/dashboard-ui/index.html
 
 在body里加两行
+第一行调用mjj.js
 <script type="text/javascript" src="./mjj.js"></script>
-
+再加一行，调用jquery.min.js
 <script type='text/javascript' src='https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js'></script>
 2021.1.21日修改，chrome浏览器会拦截mjj.js里调用的jquery，改到从index.html里调用
 <img width="658" alt="image" src="https://github.com/beiona/emby-goindex-potplayer/blob/main/%E7%9B%B4%E6%8E%A5%E6%94%B9emby%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%96%87%E4%BB%B6/mjj01.PNG">
