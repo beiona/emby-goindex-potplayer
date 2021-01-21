@@ -79,8 +79,10 @@ X:\EMBY sXerver\system\dashboard-ui\index.html
 /opt/emby-server/system/dashboard-ui/index.html
 
 在body里加两行
+
 第一行调用mjj.js
 <script type="text/javascript" src="./mjj.js"></script>
+
 再加一行，调用jquery.min.js
 <script type='text/javascript' src='https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js'></script>
 2021.1.21日修改，chrome浏览器会拦截mjj.js里调用的jquery，改到从index.html里调用
