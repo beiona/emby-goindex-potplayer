@@ -23,7 +23,7 @@ var yulan = ""
 //document.write("<script type='text/javascript' src='./jquery.min.js'></script>"); 
 //外网
 //document.write("<script type='text/javascript' src='https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js'></script>"); 
-//2001.1.21日更新，改到从index.html里调用jquery.min.js
+//2021.1.21日更新，改到从index.html里调用jquery.min.js
 
 //以下的代码基本不用动了，等调试成功，注释掉window.alert()就好了
 
