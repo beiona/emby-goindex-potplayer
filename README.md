@@ -1,3 +1,6 @@
+# 请移步新版本，此项目不再更新
+https://github.com/beiona/EMBY-direct-link-player
+
 # 感谢各位mjj对本项目的支持与帮助
 
 # 新版版emby把媒体信息的标签移除了，所以无法使用。请配合4.4.3版本的emby使用
